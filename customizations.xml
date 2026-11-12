@@ -2927,6 +2927,7 @@
               <grid name="resultset" jump="sk_name" select="1" icon="1" preview="1">
                 <row name="result" id="sk_invoiceprocessingid">
                   <cell name="sk_name" width="300" />
+                  <cell name="sk_customername" width="200" />
                   <cell name="createdon" width="125" />
                 </row>
               </grid>
@@ -2937,6 +2938,7 @@
                 <entity name="sk_invoiceprocessing">
                   <attribute name="sk_invoiceprocessingid" />
                   <attribute name="sk_name" />
+                  <attribute name="sk_customername" />
                   <attribute name="createdon" />
                   <order attribute="sk_name" descending="false" />
                   <filter type="and">
